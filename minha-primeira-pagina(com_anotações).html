@@ -3,52 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clube de cachorros">
+    <!-- Uma breve descrição do que é o website que os mecanismos de pesquisa PODEM usar -->
     <title> Clube Patinhas </title>
 </head>
 <body>
+    <header>
     <h1> Clube Patinhas </h1>
     <!-- h1 é uma tag de título -->
     <!-- Um único h1 por página: o assunto principal -->
     <!-- Existem seis níveis de título, do h1 ao h6 -->
     <!-- Não se pula ordem: depois de h1, vem um h2, depois h3 e etc... -->
     <!-- Quanto maior o número do *h* ex:h1 ou h6 menor será o tamanho da fonte -->
-     <h2> Como Cuidar </h2>
-     <h3> Alimentação </h3>
-     <p> Escove os dentes <em>só com pasta para cães</em>.</p>
-     <h3> Passeios </h3>
-     <p> Filhotes só passeiam <strong>com as vacinas em dia</strong>.</p>
-     <!-- A tag p é para parágrafo de texto -->
-     <!-- A tag strong é para uso de negrito e em itálico -->
-     <ol>
-        <li>Pegar a guia</li>
-        <li>Passear</li>
-        <li>Dar água</li>
-     </ol>
-     <!-- lista ordenada -->
-     <!-- A tag "ol" abre a lista e "li" são os elementos desta lista -->
+    </header>
+   <main>
+   <h2> Como Cuidar </h2>
+   <h3> Alimentação </h3>
+   <p> Ofereça ração adequada à idade e ao porte do cão e deixe sempre água limpa à disposição. </p>
+   <p> Escove os dentes <em>só com pasta para cães</em>.</p>
+   <ul>
+      <li> Filhotes comem várias vezes ao dia, em porções pequenas.</li>
+      <li> Adultos costumam comer duas vezes ao dia.</li>
+      <li> Alguns alimentos humanos fazem mal ao cães: </li>
+      <ul>
+         <li> Chocolate;</li>
+         <li> Uva e uva-passa;</li>
+         <li> Cebola e alho.</li>
+      </ul>
+   </ul>
+   <h3> Passeios </h3>
+   <p> Filhotes só passeiam <strong>com as vacinas em dia</strong>.</p>
+   <!-- A tag p é para parágrafo de texto -->
+   <!-- A tag strong é para uso de negrito e em itálico -->
+   <p> Passeios são importantes porque gastam energia, fortalece os músculos e ajuda o cão a conviver com outras pessoas e animais.</p>
+   <ol>
+      <li>Pegar a guia.</li>
+      <li>Passear, de preferência fora dos horários mais quentes.</li>
+      <li>Dar água ao voltar para casa.</li>
+   </ol>
+   <!-- lista ordenada -->
+   <!-- A tag "ol" abre a lista e "li" são os elementos desta lista -->
 
-     <h2> Raças </h2>
-     <ul>
-        <li>Beagle</li>
-        <li>Poodle</li>
-        <li>Vira-lata</li>
-     </ul>
-     <!-- Lista não ordenada. -->
-     <!-- A tag "ul" abre a lista e "li" são os elementos desta lista-->
-     <dl>
-        <dt>Filhote</dt>
-        <dd>Cão com menos de um ano.</dd>
-     </dl>
-     <!-- Usado para criar uma definição -->
-     <!-- A tag "dt" é para o título e "dd" para descrição -->
+   <h2> Raças </h2>
+   <ul>
+      <li>Beagle</li>
+      <figure> 
+      <!-- Utilizamos figure quando a imagem que inserirmos no website tiver relação direta com um texto dele. Por exemplo, em 
+      trabalhos que comentam sobre dados estatísticos e, no texto, informa "vide gráfico/imagem/tabela a seguir". Quando a imagem 
+      no website é meramente ilustrativa, utilizamos somente o img. -->
+      <img src="beagle.WEBP"alt="Um beagle em um gramado" height="300"width="300">
+      <figcaption>Foto de um Beagle em um campo</figcaption>
+      </figure>   
+      <li>Poodle</li>
+      <li>Vira-lata</li>
+   </ul>
+   <!-- Lista não ordenada. -->
+   <!-- A tag "ul" abre a lista e "li" são os elementos desta lista-->
 
-     <a href="https://pt.wikipedia.org/wiki/C%C3%A3o" target=""_blank" rel="noopener noreferrer">Sobre cães - Wikipedia</a>
-     <!-- A tag "a" é para criar links -->
-     <!-- No atributo "href", colocamos o endereço da página que queremos redirecionar -->
-     <!-- O atributo target é usado para indicar se, ao clicar no link, a pagina abrirá na mesma aba/janela ou em uma nova aba/janela -->
-     <!-- O atributo "nooper noreferrer" define que, ao clicar no link e abrir uma nova aba/janela, ele não poderá manipular a aba original(reverse tabnabbing) e impedirá que o site de destino saiba de qual página veio o tráfego original -->
-     <img src="caramelo.jpg" alt="Um cachorro caramelo, representante oficial do Brasil.">
-     <!-- A tag "img" é para colocar uma imagem no HTML -->
-     <!-- O atributo alt deve sempre estar informado com uma descrição da imagem -->
+   <dl>
+      <dt>Filhote</dt>
+      <dd>Cão com menos de um ano.</dd>
+   </dl>
+   <!-- Usado para criar uma definição -->
+   <!-- A tag "dt" é para o título e "dd" para descrição -->
+
+   <a href="https://pt.wikipedia.org/wiki/C%C3%A3o" target=""_blank" rel="noopener noreferrer">Sobre cães - Wikipedia</a>
+   <!-- A tag "a" é para criar links -->
+   <!-- No atributo "href", colocamos o endereço da página que queremos redirecionar -->
+   <!-- O atributo target é usado para indicar se, ao clicar no link, a pagina abrirá na mesma aba/janela ou em uma nova aba/janela -->
+   <!-- O atributo "nooper noreferrer" define que, ao clicar no link e abrir uma nova aba/janela, ele não poderá manipular a aba 
+   original(reverse tabnabbing) e impedirá que o site de destino saiba de qual página veio o tráfego original -->
+   <img src="caramelo.jpg" alt="Um cachorro caramelo, representante oficial do Brasil." height="300" width="300">
+   <!-- A tag "img" é para colocar uma imagem no HTML -->
+   <!-- O atributo alt deve sempre estar informado com uma descrição da imagem -->
+
+   <h2> Passeios da semana </h2>
+
+   <table border="1">
+      <tr>
+         <th> Cachorro</th>
+         <th> Raça</th>
+         <th> Passeio</th>
+      </tr>
+      <tr>
+         <td>Rex</td>
+         <td>Poodle</td>
+         <td>2</td>
+      </tr>
+   </table>
+
+   <h2> Entre em contato:</h2>
+
+   <form>
+      <!-- form abr o formulário -->
+      <label for="nome">Nome</label>
+      <input type="Text" id="nome" name="nome">
+      <!-- Label é o título do campo do formulário -->
+      <!-- input é o espaço criado para você digitar a informação -->
+      <!-- Atenção para os atributos id e name. O atributo id vai funcionar como um CPF: cada elemento do HTML possui seu próprio CPF.
+      Isto vai nos ajudar , depois, para encontrar estes elementos no JavaScript. O name é importante quando vamos enviar os dados do 
+      formulário para gravação, pois ele define o 'nome da variável' que vai armazenar o dado-->
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea type="mensagem" id="mensagem" name="mensagem"></textarea>
+      <!-- A tag textarea é uma área de digitação para textos longos -->
+
+      <button type="submit">Enviar</button>
+      <!-- O button type="submit" tem a função de, quando clicado, enviar as informações do formulário para o servidor 
+        -->
+   </form>
+   </main>
+
+   <footer>
+      <p> Clube Patinhas - Site criado para fins educativos.</p>
+      <p>&copy; 2026 - Clube Patinhas. Todos os direitos reservados. </p>
+   </footer>
 </body>
 </html>
